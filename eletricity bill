@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter unit value");
+        int unit=scan.nextInt();
+        int total=unit/100;
+        switch(total){
+            case 0:
+                System.out.println(unit*2);
+                break;
+                case 1:
+                System.out.println(unit*3);
+                break;
+                case 2:
+                System.out.println(unit*4);
+                break;
+        }
+     
+        
+    }
+}
