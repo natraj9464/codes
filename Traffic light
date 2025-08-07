@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter the traffic signal:RED,YELLOW,GREEN");
+        String T=scan.next();
+        switch(T){
+            case"RED":
+                System.out.println("stop");
+                break;
+                case"YELLOW":
+                    System.out.println("ready");
+                    break;
+                    case"GREEN":
+                    System.out.println("GO");
+                    break;
+        }
+ 
+    }
+}
