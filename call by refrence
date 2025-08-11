@@ -1,0 +1,15 @@
+public class sample
+{
+    int a=8;
+    char c='n';
+    String s="Natraj"; 
+    public static void area(sample t){
+        System.out.println(t.a);
+    }
+        public static void main(String[] args) {
+          sample s1=new sample();
+          int a=10;
+            area(s1);
+
+        }
+}
