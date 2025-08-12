@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main
+{
+        public static void main(String[] args) {
+            Scanner scan=new Scanner(System.in);
+            int arr1[]={12,24,36,48,60};
+            int val[]=new int[arr1.length];
+         int c=0;
+            for(int i=arr1.length-1;i>=0;i--){
+                 val[c]=arr1[i];
+                 c++;
+            }
+            for(int k=0; k<val.length; k++){
+            System.out.print(val[k]+",");
+            }
+
+        }
+}
