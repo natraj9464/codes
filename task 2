@@ -1,0 +1,17 @@
+public class sample89 {
+    public static void main(String[] args) {
+     String a="malayalam";
+     String b=" ";
+     for(int i=0;i<a.length();i++){
+         char t=a.charAt(i);
+         b=t+b;
+     }
+     if(b.equalsIgnoreCase(a)){
+         System.out.println(b);
+         
+     }
+     else{
+         System.out.println("it's not");
+     }
+     }
+     }                                                                                                                  
