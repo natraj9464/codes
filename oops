@@ -1,0 +1,36 @@
+class NewClass{
+    int a=90;
+    int b=80;
+    public static void main(String[] args){
+        NewClass n=new NewClass();
+        System.out.println(n.a);
+    
+    }
+}
+
+
+
+
+
+public class Sample54{
+Sample54(String b){
+String a=b;
+System.out.println(a);
+}
+{
+    System.out.println("hi");
+}
+static {
+    System.out.println("hiiiiiiiiiiii");
+}
+{
+    System.out.println("hello");
+}
+public static void main(String[] args){
+NewClass n=new NewClass();
+Sample54 s=new Sample54("NOT SUPPORT");
+System.out.println(n.a);
+System.out.println(n.b);
+
+}
+}
